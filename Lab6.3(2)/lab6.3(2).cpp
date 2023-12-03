@@ -65,6 +65,9 @@ int main() {
     int minElement = findMinRecursive(arr, size, 0, arr[0]);
     cout << "Min element in array(recursive): " << minElement << endl;
 
+    int minElementT = findMinTemplateRecursive(arr, size, 0, arr[0]);
+    cout << "Min element in array(recursiveT): " << minElementT << endl;
+
     delete[] arr;
 
     return 0;
